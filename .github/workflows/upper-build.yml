@@ -14,3 +14,5 @@ jobs:
             - run: go version
             - run: go build
               working-directory: ./upper
+            - run: go test -v
+              working-directory: ./upper
