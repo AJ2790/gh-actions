@@ -30,7 +30,7 @@ jobs:
                 go build
                 ls
                 go test
-                la -al upper
+                ls -al upper
                 ./upper foo the bar
               working-directory: upper
               name: build and test
