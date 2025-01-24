@@ -3,8 +3,8 @@ name: upper-build
 on:
     push:
         paths:
-            -   ".github/workflow/upper-build.yml"
-            -   "upper/**"
+            - ".github/workflow/upper-build.yml"
+            - "upper/**"
 
 jobs:
     build:
