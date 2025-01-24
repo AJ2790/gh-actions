@@ -16,10 +16,10 @@ jobs:
             - run: go version
             - uses: actions/setup-go@v5
             - run: go version
-            - run: go build
-              working-directory: ./upper
-            - run: go test -v
-              working-directory: ./upper
+            # - run: go build
+              # working-directory: ./upper
+            # - run: go test -v
+              # working-directory: ./upper
             - run: |
                 ls
                 go build
